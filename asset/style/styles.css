@@ -1,0 +1,146 @@
+*{
+  margin:0;
+  padding:0;
+  }
+a{
+  text-decoration:none;
+  color:#fff;
+  }
+header{
+  background:#fff;
+  padding:0 32px;
+  }
+header p{
+  font:64px "HGP行書体";
+  }
+header p span{
+  display:inline-block;
+  }
+
+.main1{
+  padding:12px;
+  background:#eee;
+  padding-bottom: 32px;
+  }
+.main1>div:not(:first-child){
+  margin-top:8px;
+  }
+.img1{
+  height:150px;
+  margin-left:16px;
+  }
+.order{
+  padding:2px 6px;
+  background:#357;
+  color:#fff;
+  font-weight:bold;
+  border:1px solid;
+  border-radius:12px;
+  }
+.shinfo{
+  margin:8px auto;
+  max-width:1000px;
+  }
+.shinfo dl{
+  display:inline-block;
+  min-width:32%;
+  margin:0 0 8px 8px;
+  }
+.shinfo dl dt:before{
+  content:'';
+  display:inline-block;
+  width:8px;
+  height:3px;
+  margin-right: 0.3em;
+  vertical-align: middle;
+  background: #bc9249;
+  }
+.armap{
+  display:inline-block;
+  vertical-align:top;
+  width: 65%;
+  aspect-ratio: 16 / 9
+  }
+.armap>div{
+  width:100%;
+  height:100%;
+  }
+.armap iframe{
+  width:100%;
+  height:100%;
+  border:1px solid;
+  }
+.pagetop{
+  position:fixed;
+  bottom:48px;
+  right:32px;
+  width:40px;
+  height:40px;
+  display:inline-block;
+  }
+.pagetop img{
+  display:block;
+  width:40px;
+  height:40px;
+  }
+
+
+footer{
+  padding:32px 4px;
+  background:#000;
+  color:#fff;
+  text-align: center;
+  }
+.footi{
+  max-width:600px;
+  margin:0 auto;
+  font-size:14px;
+  }
+.index{
+  margin-bottom:12px;
+  }
+.index ul{
+  list-style: none;
+  }
+.index li{
+  display: inline;
+  }
+.index ul li:not(:first-child):before {
+  content: "|";
+  margin-right: 1em;
+  margin-left: 1em;
+  }
+.index a{
+  color:#fff;
+  }
+.index a:hover,a:hover{
+  text-decoration: underline;
+  }
+.baceinfo{
+  display:flex;
+  margin:24px 0;
+  justify-content: space-between;
+  text-align:left
+  }
+.insta{
+  display:block;
+  }
+.insta figure{
+  display:inline;
+  display:flex;
+  align-items:center;
+  }
+.insta img{
+  vertical-align:middle;
+  width:24px;
+  height:24px;
+  }
+.insta figcaption{
+  display:inline;
+  margin-left:4px;
+  line-height:1;
+  }
+.pr_sns{
+  width:128px;
+  height:128px;
+  }

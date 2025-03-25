@@ -1,0 +1,15 @@
+@media print{
+.pn,.order,.pagetop{
+  display:none;
+  }
+header{
+  border-top:1px solid;
+  text-align:center;
+  font-size:32px;
+  }
+  }
+@media not print{
+.pr_sns{
+  display:none;
+  }
+  }
