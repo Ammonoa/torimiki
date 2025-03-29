@@ -11,6 +11,9 @@ header p{
   display:block;
   width:100%;
   }
+.pagetop{
+  right:5%;
+  }
   }
 @media (max-width: 480px){
 header{
