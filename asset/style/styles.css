@@ -9,6 +9,7 @@ a{
 header{
   background:#fff;
   padding:0 32px;
+  user-select: none;
   }
 header p{
   font:64px "HGP行書体";
@@ -23,7 +24,7 @@ header p span{
   padding-bottom: 32px;
   }
 .main1>div:not(:first-child){
-  margin-top:8px;
+  margin-top:48px;
   }
 .img1{
   height:150px;
@@ -37,9 +38,21 @@ header p span{
   border:1px solid;
   border-radius:12px;
   }
+.enkai{
+  max-width:1024px;
+  margin:auto;
+  }
+.enkai dl dt{
+  border-bottom:1px solid;
+  max-width:8em;
+  margin-top:1.2em;
+  padding-left:0.5em;
+  font-size:20px;
+  line-height:1;
+  }
 .shinfo{
-  margin:8px auto;
-  max-width:1000px;
+  margin:auto;
+  max-width:1024px;
   }
 .shinfo dl{
   display:inline-block;
@@ -83,7 +96,6 @@ header p span{
   width:40px;
   height:40px;
   }
-
 
 footer{
   padding:32px 4px;
