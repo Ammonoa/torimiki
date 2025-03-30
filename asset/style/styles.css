@@ -39,7 +39,8 @@ header p span{
   line-height:1;
   color:#0bf;
   user-select: none;
-  }/*font-weight:normal*/;
+  }
+  /*font-weight:normal*/
 .button1:hover{
   background-color: #bff;
   color: #0bf;
