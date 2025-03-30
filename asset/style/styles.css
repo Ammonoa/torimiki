@@ -30,7 +30,8 @@ header p span{
   height:150px;
   margin-left:16px;
   }
-.button1{
+.order,.button1{
+  display:inline-block;
   background-color:#fff;
   border:solid 2px #0bf;
   border-radius:5px;
@@ -41,9 +42,12 @@ header p span{
   user-select: none;
   }
   /*font-weight:normal*/
+.order a{
+  color:#0bf;
+  }
 .button1:hover{
-  background-color: #bff;
-  color: #0bf;
+  background-color:#bff;
+  color:#0bf;
   }
 .enkai{
   max-width:1024px;
