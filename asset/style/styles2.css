@@ -1,25 +1,21 @@
 @media (max-width:1024px){
 .armap{
-  display:block;
   }
   }
-@media (max-width: 768px){
-header p{
-  font-size:48px;
-  }
+@media (max-width:900px){
 .armap{
   display:block;
   width:100%;
+  max-width:560px;
   }
-.pagetop{
+  }
+@media (max-width:768px){
+.scroll-btn{
   right:5%;
   }
   }
-@media (max-width: 480px){
+@media (max-width:480px){
 header{
   padding:4px 2px;
-  }
-header p{
-  font-size:32px;
   }
   }
