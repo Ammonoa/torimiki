@@ -11,6 +11,9 @@ header{
   padding:0 32px;
   user-select: none;
   }
+header img,header h1 span{
+  display:inline-block;
+  }
 header p{
   font:64px "HGP行書体";
   }
@@ -86,8 +89,8 @@ header p span{
 .armap{
   display:inline-block;
   vertical-align:top;
-  width: 65%;
-  aspect-ratio: 16 / 9
+  width:65%;
+  aspect-ratio:16 / 9
   }
 .armap>div{
   width:100%;
@@ -107,10 +110,12 @@ header p span{
   display:inline-block;
   user-select: none;  
   }
-.pagetop img{
-  display:block;
-  width:40px;
-  height:40px;
+.scroll-btn{
+  position:fixed;
+  bottom:24px;
+  right:24px;
+  cursor:pointer;
+  user-select: none;
   }
 
 footer{
@@ -150,23 +155,30 @@ footer{
   justify-content: space-between;
   text-align:left
   }
-.insta{
-  display:block;
-  }
+  
 .insta figure{
-  display:inline;
   display:flex;
   align-items:center;
   }
-.insta img{
-  vertical-align:middle;
+.snsicon{
   width:24px;
   height:24px;
   }
 .insta figcaption{
-  display:inline;
   margin-left:4px;
   line-height:1;
+  }
+.insta figcaption::after{
+  display:inline-block;
+  content:"";
+  background-image:url(../media/xml/a-blank.svg);
+  margin-left:8px;
+  height:13px;
+  width:13px;
+  vertical-align:middle;
+  }
+.abc{
+  display:inline;
   }
 .qr_sns{
   width:128px;
