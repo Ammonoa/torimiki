@@ -108,14 +108,14 @@ header p span{
   width:40px;
   height:40px;
   display:inline-block;
-  user-select: none;  
+  user-select:none;  
   }
 .scroll-btn{
   position:fixed;
   bottom:24px;
   right:24px;
   cursor:pointer;
-  user-select: none;
+  user-select:none;
   }
 
 footer{
