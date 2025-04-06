@@ -111,6 +111,7 @@ header p span{
   user-select:none;  
   }
 .scroll-btn{
+  display:none;
   position:fixed;
   bottom:24px;
   right:24px;
