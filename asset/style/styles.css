@@ -8,23 +8,24 @@ a{
   }
 header{
   background:#fff;
-  padding:0 32px;
+  padding:4px 32px;
+  font:24px "HGP行書体";
+  font-weight:400;
   user-select: none;
   }
-header img,header h1 span{
+header h1 span{
   display:inline-block;
-  }
-header p{
-  font:64px "HGP行書体";
   }
 header p span{
   display:inline-block;
   }
 
 .main1{
-  padding:12px;
+  padding:16px;
   background:#eee;
-  padding-bottom: 32px;
+  }
+.main1 p{
+  text-indent:1em;
   }
 .main1>div:not(:first-child){
   margin-top:48px;
@@ -43,7 +44,7 @@ header p span{
   font-size:1.4em;
   line-height:1;
   color:#0bf;
-  user-select: none;
+  user-select:none;
   }
   /*font-weight:normal*/
 .order a{
@@ -101,15 +102,6 @@ header p span{
   height:100%;
   border:1px solid;
   }
-.pagetop{
-  position:fixed;
-  bottom:48px;
-  right:32px;
-  width:40px;
-  height:40px;
-  display:inline-block;
-  user-select:none;  
-  }
 .scroll-btn{
   display:none;
   position:fixed;
@@ -132,17 +124,20 @@ footer{
   }
 .index{
   margin-bottom:12px;
+  font-size:0px;
   }
 .index ul{
   list-style: none;
   }
 .index li{
   display: inline;
+  font-size:14px;
+  line-height:1;
   }
 .index ul li:not(:first-child):before {
+  display:inline;
+  margin:auto 1em;
   content: "|";
-  margin-right: 1em;
-  margin-left: 1em;
   }
 .index a{
   color:#fff;
@@ -172,16 +167,14 @@ footer{
 .insta figcaption::after{
   display:inline-block;
   content:"";
-  background-image:url(../media/xml/a-blank.svg);
+  background-image:url(../media/a-blank.svg);
   margin-left:8px;
   height:13px;
   width:13px;
   vertical-align:middle;
   }
-.abc{
-  display:inline;
-  }
 .qr_sns{
+  display:none;
   width:128px;
   height:128px;
   }
