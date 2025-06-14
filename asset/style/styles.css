@@ -1,3 +1,4 @@
+/*1.002.01*/
 *{
   margin:0;
   padding:0;
@@ -9,15 +10,12 @@ a{
 header{
   background:#fff;
   padding:4px 32px;
-  font:24px "HGP行書体";
-  font-weight:400;
   user-select: none;
   }
-header h1 span{
+header span{
   display:inline-block;
-  }
-header p span{
-  display:inline-block;
+  font:32px "HGP行書体";
+  font-weight:400;
   }
 .fnts{
   font-size:0;
@@ -34,22 +32,20 @@ header p span{
   margin-top:48px;
   }
 .img1{
-  height:150px;
-  width:112.5px;
-  margin-left:16px;
+  width:220px;
+  height:auto;
   }
 .button1{
   display:inline-block;
-  background-color:#fff;
-  border:solid 2px #0bf;
-  border-radius:5px;
   padding:2px 4px;
+  border:solid 2px #f72;
+  border-radius:5px;
+  background-color:rbg(225,225,225,1);
   font-size:1.4rem;
   line-height:1;
-  color:#0bf;
+  color:#444;
   user-select:none;
   }
-  /*font-weight:normal*/
 .order a{
   color:#0bf;
   }
