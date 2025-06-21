@@ -1,4 +1,4 @@
-/*1.002.01*/
+/*1.003.01*/
 *{
   margin:0;
   padding:0;
@@ -7,7 +7,7 @@ a{
   text-decoration:none;
   color:#fff;
   }
-header{
+div.bg0{
   width:100%;
   height:100vh;
   background-image:linear-gradient(rgba(0, 0, 0, 0.2)),
@@ -19,7 +19,7 @@ header{
   color:#fff;
   /*object-fit:cover;*/
   }
-header .bg0{
+header{
   background:rgb(0,0,0,0.4);
   padding:4px;
   }
@@ -33,8 +33,9 @@ header span{
   display:inline-block;
   }
 .sg{
-  margin:35vh auto;
+  margin:30vh auto;
   writing-mode: vertical-rl;
+  font:24px "HGP行書体";
   }
 
 .fnts{
