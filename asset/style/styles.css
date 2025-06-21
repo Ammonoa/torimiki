@@ -18,8 +18,7 @@ header{
   user-select:none;
   color:#fff;
   /*
-  object-fit:cover;
-  object-position:center;*/
+  object-fit:cover;*/
   }
 header .bg0{
   background:rgb(0,0,0,0.4);
