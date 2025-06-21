@@ -1,21 +1,34 @@
+/*1.002.01*/
+@media (min-width:1024px){
+  header .bg0{
+    padding:6px;
+    }
+      }
 @media (max-width:1024px){
-.armap{
-  }
-  }
+  header .bg0{
+    padding:6px;
+    }
+    }
 @media (max-width:900px){
-.armap{
-  display:block;
-  width:100%;
-  max-width:560px;
-  }
-  }
+  .armap{
+    display:block;
+    width:100%;
+    max-width:560px;
+    }
+  header .bg0{
+    padding:4px;
+    }
+  header .tytl{
+    font-size:32px;
+    }
+    }
 @media (max-width:768px){
-.scroll-btn{
-  right:5%;
-  }
-  }
+  .scroll-btn{
+    right:5%;
+    }
+    }
 @media (max-width:480px){
-header{
-  padding:4px 2px;
-  }
-  }
+  header .tytl{
+    font-size:28px;
+    }
+    }
