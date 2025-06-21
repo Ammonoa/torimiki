@@ -17,8 +17,7 @@ header{
   background-repeat:no-repeat;
   user-select:none;
   color:#fff;
-  /*
-  object-fit:cover;*/
+  /*object-fit:cover;*/
   }
 header .bg0{
   background:rgb(0,0,0,0.4);
@@ -27,7 +26,7 @@ header .bg0{
 header .tytl{
   max-width:1000px;
   margin:0 auto;
-  font:32px "HGP行書体";
+  font:48px "HGP行書体";
   font-weight:400;
   }
 header span{
