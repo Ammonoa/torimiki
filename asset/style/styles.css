@@ -8,15 +8,37 @@ a{
   color:#fff;
   }
 header{
-  background:#fff;
-  padding:4px 32px;
-  user-select: none;
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2)),
+  url("../media/Interior.webp");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  user-select:none;
+  color:#fff;
+  /*
+  object-fit:cover;
+  object-position:center;*/
   }
-header span{
-  display:inline-block;
+header .bg0{
+  background:rgb(0,0,0,0.4);
+  padding:4px;
+  }
+header .tytl{
+  max-width:1000px;
+  margin:0 auto;
   font:32px "HGP行書体";
   font-weight:400;
   }
+header span{
+  display:inline-block;
+  }
+.sg{
+  margin:35vh auto;
+  writing-mode: vertical-rl;
+  }
+
 .fnts{
   font-size:0;
   }
@@ -31,9 +53,15 @@ header span{
 .main1>div:not(:first-child){
   margin-top:48px;
   }
+.img{
+  overflow: hidden;
+  }
 .img1{
-  width:220px;
-  height:auto;
+  display: block;
+  width:100%;
+  height:910px;
+  object-fit: cover;
+  object-position: center top;
   }
 .button1{
   display:inline-block;
@@ -158,7 +186,7 @@ footer{
 .snsicon{
   width:24px;
   height:24px;
-  }
+  user-select:none;}
 .insta figcaption{
   margin-left:4px;
   line-height:1;
