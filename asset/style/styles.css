@@ -1,4 +1,4 @@
-/*1.003.04*/
+/*1.003.05*/
 @charset "utf-8";
 *{
   margin:0;
@@ -7,6 +7,9 @@
 a{
   text-decoration:none;
   color:#fff;
+  }
+.fnts{
+  font-size:0;
   }
 div.bg0{
   display:flex;
@@ -20,7 +23,7 @@ div.bg0{
   user-select:none;
   }
 header{
-  background:rgb(0,0,0,0.4);
+  background:#0006;
   padding:4px;
   }
 header .tytl{
@@ -36,17 +39,17 @@ header .tytl{
   flex:1;
   align-content:center;
   text-align:center;
-  writing-mode: vertical-rl;
+  writing-mode:vertical-rl;
   font-size:24px;
-  }
-
-.fnts{
-  font-size:0;
   }
 
 .main1{
   padding:16px;
   background:#eee;
+  }
+.main1 div{
+  max-width:1024px;
+  margin:auto;
   }
 .main1 p{
   text-indent:1em;
@@ -54,37 +57,20 @@ header .tytl{
 .main1>div:not(:first-child){
   margin-top:48px;
   }
-.img{
-  overflow: hidden;
-  }
-.img1{
-  display: block;
-  width:100%;
-  height:910px;
-  object-fit: cover;
-  object-position: center top;
-  }
 .button1{
   display:inline-block;
   padding:2px 4px;
   border:solid 2px #f72;
   border-radius:5px;
-  background-color:rbg(225,225,225,1);
+  background-color:#fec;
   font-size:1.4rem;
   line-height:1;
   color:#444;
   user-select:none;
   }
-.order a{
-  color:#0bf;
-  }
 .button1:hover{
-  background-color:#bff;
-  color:#0bf;
-  }
-.enkai{
-  max-width:1024px;
-  margin:auto;
+  background-color:#f72;
+  color:#fff;
   }
 .enkai dl dt{
   border-bottom:1px solid;
@@ -101,16 +87,18 @@ header .tytl{
   margin:auto;
   max-width:1024px;
   }
+.shinfo dt{
+  margin-top:8px;
+  }
 .shinfo dl{
   display:inline-block;
   min-width:32%;
-  margin:0 0 8px 8px;
   }
 .shinfo dl dt:before{
   content:'';
   display:inline-block;
-  width:8px;
-  height:3px;
+  width:0.5em;
+  height:0.2em;
   margin-right: 0.3em;
   vertical-align: middle;
   background: #bc9249;
